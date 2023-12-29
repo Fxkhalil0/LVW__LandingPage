@@ -248,25 +248,44 @@ footer>.footer__icons>i {
 }
 
 @media screen and (max-width: 1600px) {
+  .box__shadow>img {
+    top: 138px;
+  }
+
   .right__side .paths img {
-    width: 400px;
+    width: 480px;
   }
 
   .right__side .paths {
     left: -345px;
   }
 
+  .sec__path {
+    top: 172px;
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
   .right__side .paths img {
-    width: 350px;
+    width: 430px;
   }
 
   .right__side .paths {
     left: -300px;
   }
 
+  .sec__path {
+    top: 147px;
+  }
+
+  .last__path {
+    top: 200px;
+  }
+
+  .box__shadow>img {
+    top: 125px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -401,8 +420,9 @@ footer>.footer__icons>i {
   }
 
   .box__shadow>img {
-    top: 460px;
-    left: 130px;
+    width: 40%;
+    top: 453px;
+    left: 66px;
   }
 
   .responsive__div {
@@ -453,7 +473,13 @@ footer>.footer__icons>i {
     margin-left: 0px;
     font-size: 12px;
   }
+  .box__shadow>img {
+    width: 70%;
+    top: 390px;
+    left: -10px;
 }
+}
+
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border: none !important;
 }

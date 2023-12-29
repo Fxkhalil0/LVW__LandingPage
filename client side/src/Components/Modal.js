@@ -49,6 +49,11 @@ function Modall({ open, handleClose, user  ,show }) {
     axios.post("http://localhost:5000/user/addUser",values).then((res)=>{
       handleClose()
       show("Your request sent successfully", "success")
+      setEmail("")
+      setFirstName("")
+      setLastName("")
+      setPhone("")
+      setRole(0)
     }).catch((err)=>{
       console.log(err)
       show(err.response.data.message, "error")
